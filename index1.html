@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>108 Sacred Manifestations of Goddess Durga | মা দুর্গার ১০৮ রূপ</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Noto+Serif+Bengali:wght@400;600;700&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --glass-bg: rgba(22, 3, 10, 0.88);
+            --glass-card: rgba(255, 255, 255, 0.08);
+            --glass-border: rgba(250, 217, 97, 0.28);
+            --gold: #FAD961;
+        }
+
+        body {
+            font-family: 'Noto Serif Bengali', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0105;
+            background-image: radial-gradient(circle at 50% 15%, rgba(68, 8, 27, 0.9) 0%, rgba(11, 1, 5, 0.98) 100%);
+            background-attachment: fixed;
+            color: #f3f4f6;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        body.lang-en { font-family: 'Cinzel', serif; }
+        body.lang-hi { font-family: 'Noto Serif Devanagari', serif; }
+
+        .text-gold {
+            color: #FAD961;
+            text-shadow: 0 2px 10px rgba(250, 217, 97, 0.3);
+        }
+
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .glass-card {
+            background: var(--glass-card);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 18px;
+            transition: all 0.25s ease;
+            cursor: pointer;
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(250, 217, 97, 0.6);
+            box-shadow: 0 12px 24px rgba(250, 217, 97, 0.25);
+        }
+
+        .wiki-infobox {
+            background: rgba(14, 2, 7, 0.94);
+            border: 1px solid rgba(250, 217, 97, 0.35);
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+        }
+
+        .wiki-section-title {
+            border-bottom: 2px solid rgba(250, 217, 97, 0.3);
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+            color: #FAD961;
+        }
+
+        .view-hidden { display: none !important; }
+        .view-active { display: block !important; }
+
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 15px rgba(250, 217, 97, 0.5), inset 0 0 10px rgba(250, 217, 97, 0.3); }
+            50% { box-shadow: 0 0 30px rgba(250, 217, 97, 0.9), 0 0 12px rgba(255, 255, 255, 0.7); }
+        }
+
+        .bot-circular-launcher {
+            animation: pulse-glow 2.4s infinite ease-in-out;
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #120108; }
+        ::-webkit-scrollbar-thumb { background: #FAD961; border-radius: 8px; }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="glass-panel sticky top-0 z-40 w-full px-4 md:px-8 py-2.5 flex items-center justify-between border-b border-yellow-500/30 backdrop-blur-md">
+        <div class="flex items-center gap-3 cursor-pointer" onclick="showHome()">
+            <div class="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-yellow-400/80 shadow-md p-0.5 bg-black/60 flex-shrink-0">
+                <img src="chatbot_logo.png" alt="Maa Durga Mandala Logo" class="w-full h-full object-cover rounded-full hover:scale-110 transition-transform duration-300" onerror="handleImageError(this)">
+            </div>
+            <div>
+                <h2 class="text-base md:text-xl font-bold text-gold tracking-wide leading-tight">মা দুর্গার ১০৮ রূপ</h2>
+                <p class="text-[10px] md:text-xs text-yellow-200/70 font-sans">শ্রীশ্রী দুর্গাষ্টোত্তর শতনামাবলী</p>
+            </div>
+        </div>
+        <div class="flex items-center gap-2">
+            <select id="lang-select" onchange="changeLanguage(this.value)" class="bg-black/90 text-yellow-300 font-semibold border border-yellow-500/50 rounded-full px-3 py-1.5 md:px-4 md:py-1.5 outline-none backdrop-blur-md cursor-pointer shadow-lg text-xs md:text-sm">
+                <option value="bn">বাংলা (Bengali)</option>
+                <option value="en">English</option>
+                <option value="hi">हिन्दी (Hindi)</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- 1. HOME VIEW -->
+    <div id="home-view" class="view-active flex-grow flex flex-col pt-6 pb-20">
+        <header class="text-center px-4 max-w-4xl mx-auto mb-6">
+            <span class="text-xs uppercase tracking-widest text-yellow-400 font-semibold border border-yellow-500/30 px-3 py-0.5 rounded-full bg-yellow-950/40 inline-block mb-2">
+                শ্রীশ্রী দুর্গাষ্টোত্তর শতনামাবলী
+            </span>
+            <h1 id="ui-main-title" class="text-3xl md:text-5xl font-bold text-gold mb-2">
+                মা দুর্গার ১০৮ পরম রূপ
+            </h1>
+            <p id="ui-sub-title" class="text-sm md:text-base text-gray-300 leading-relaxed font-normal">
+                দেবী দুর্গার প্রামাণ্য ১০৮টি দিব্য স্বরূপের পূর্ণাঙ্গ সংকলন। যেকোনো রূপে ক্লিক করে বিস্তারিত শাস্ত্রীয় নিবন্ধ পড়ুন।
+            </p>
+
+            <div class="mt-4 max-w-md mx-auto space-y-3">
+                <input type="text" id="search-input" oninput="filterForms()" placeholder="রূপের নাম দিয়ে খুঁজুন... / Search Form..." class="w-full px-5 py-2 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-400 text-sm focus:outline-none focus:border-yellow-400 backdrop-blur-md transition-all">
+                
+                <button onclick="openChatbot()" class="w-full py-2.5 px-4 rounded-full bg-gradient-to-r from-yellow-600/40 via-yellow-500/30 to-amber-700/40 border border-yellow-500/50 hover:border-yellow-300 text-yellow-300 font-semibold text-xs md:text-sm flex items-center justify-center gap-2.5 transition-all shadow-md group">
+                    <div class="w-6 h-6 rounded-full overflow-hidden border border-yellow-400 flex-shrink-0">
+                        <img src="chatbot_logo.png" class="w-full h-full object-cover rounded-full" onerror="handleImageError(this)">
+                    </div>
+                    <span id="ui-banner-bot-btn">মা দুর্গা একিনেটর খেলা: মনে মনে রূপ ভাবুন, চ্যাটবট ১০০% নিশ্চিত করে বলবে!</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="container mx-auto px-4">
+            <div id="grid-container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3.5">
+                <!-- Javascript will inject 108 cards here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- 2. DETAIL VIEW -->
+    <div id="detail-view" class="view-hidden flex-grow flex flex-col pt-3 pb-16">
+        <div class="container mx-auto px-4 max-w-5xl mb-2.5 flex justify-between items-center">
+            <button onclick="showHome()" class="flex items-center gap-2 px-4 py-1.5 bg-yellow-900/40 hover:bg-yellow-800/60 rounded-full border border-yellow-500/50 text-yellow-300 font-semibold text-xs md:text-sm transition-all shadow-md">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                <span id="ui-btn-back">তালিকায় ফিরে যান</span>
+            </button>
+            <div class="text-xs text-gray-400">
+                <span id="article-number-badge" class="text-yellow-400 font-bold bg-yellow-950/60 px-2.5 py-0.5 rounded-full border border-yellow-500/30">১০৮ / ১</span>
+            </div>
+        </div>
+
+        <main class="container mx-auto px-4 max-w-5xl flex-grow">
+            <article class="glass-panel p-5 md:p-8 rounded-2xl">
+                <div class="border-b border-gray-700/60 pb-3 mb-4">
+                    <h1 id="article-main-name" class="text-2xl md:text-4xl font-bold text-gold">দেবী নাম</h1>
+                    <p id="article-sub-name" class="text-xs md:text-sm text-gray-300 italic mt-0.5 font-serif">Sanskrit Titles</p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-6 items-start">
+                    <div class="w-full lg:w-2/3 space-y-5 text-gray-200 leading-relaxed text-sm md:text-base">
+                        <div class="bg-black/50 border border-yellow-500/20 p-3.5 rounded-xl max-w-md">
+                            <h4 id="ui-toc-title" class="font-bold text-yellow-300 text-xs md:text-sm mb-1.5">সূচিপত্র (Contents)</h4>
+                            <ul class="text-xs space-y-1 text-gray-300">
+                                <li>১. ব্যুৎপত্তি ও নামকরণ</li>
+                                <li>২. পৌরাণিক প্রেক্ষাপট ও আবির্ভাব</li>
+                                <li>৩. মূর্তিতত্ত্ব ও রূপবৈশিষ্ট্য</li>
+                                <li>৪. সাধনা ও প্রণাম মন্ত্র</li>
+                                <li>৫. দার্শনিক তাৎপর্য</li>
+                            </ul>
+                        </div>
+
+                        <section>
+                            <h2 id="ui-title-sec1" class="text-lg md:text-xl font-bold wiki-section-title">১. ব্যুৎপত্তি ও নামকরণ</h2>
+                            <p id="article-etymology" class="text-justify opacity-95">বিস্তারিত তথ্য শীঘ্রই আসছে...</p>
+                        </section>
+                        <section>
+                            <h2 id="ui-title-sec2" class="text-lg md:text-xl font-bold wiki-section-title">২. পৌরাণিক প্রেক্ষাপট ও আবির্ভাব</h2>
+                            <p id="article-mythology" class="text-justify opacity-95">বিস্তারিত তথ্য শীঘ্রই আসছে...</p>
+                        </section>
+                        <section>
+                            <h2 id="ui-title-sec3" class="text-lg md:text-xl font-bold wiki-section-title">৩. মূর্তিতত্ত্ব ও রূপবৈশিষ্ট্য</h2>
+                            <p id="article-iconography" class="text-justify opacity-95">বিস্তারিত তথ্য শীঘ্রই আসছে...</p>
+                        </section>
+                        <section>
+                            <h2 id="ui-title-sec4" class="text-lg md:text-xl font-bold wiki-section-title">৪. সাধনা ও প্রণাম মন্ত্র</h2>
+                            <p id="article-mantra" class="text-justify opacity-95">বিস্তারিত তথ্য শীঘ্রই আসছে...</p>
+                        </section>
+                        <section>
+                            <h2 id="ui-title-sec5" class="text-lg md:text-xl font-bold wiki-section-title">৫. দার্শনিক তাৎপর্য</h2>
+                            <p id="article-philosophy" class="text-justify opacity-95">বিস্তারিত তথ্য শীঘ্রই আসছে...</p>
+                        </section>
+                    </div>
+
+                    <aside class="w-full lg:w-1/3 wiki-infobox p-3.5 lg:sticky lg:top-20">
+                        <div class="text-center pb-2 border-b border-yellow-500/30 mb-2.5">
+                            <h3 id="infobox-header-name" class="font-bold text-base md:text-lg text-gold">দেবী নাম</h3>
+                        </div>
+                        <div class="w-full aspect-square rounded-lg overflow-hidden mb-2 border border-white/10 bg-black/50">
+                            <img id="infobox-img" src="" alt="Goddess" class="w-full h-full object-cover" onerror="handleImageError(this)">
+                        </div>
+                        <div class="text-xs space-y-2 divide-y divide-gray-800">
+                            <div class="pt-1.5 flex justify-between gap-2">
+                                <span class="font-bold text-gray-400" id="info-lbl-vahana">পবিত্র বাহন:</span>
+                                <span class="text-right text-yellow-200" id="info-val-vahana"></span>
+                            </div>
+                            <div class="pt-1.5 flex justify-between gap-2">
+                                <span class="font-bold text-gray-400" id="info-lbl-weapons">প্রধান আয়ুধ:</span>
+                                <span class="text-right text-gray-200" id="info-val-weapons"></span>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="w-full border-t border-yellow-500/20 bg-black/80 backdrop-blur-md py-5 text-center text-xs md:text-sm text-gray-300 mt-auto">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+                <span class="text-yellow-400 text-sm md:text-base">🔱</span>
+                <span class="text-gold font-semibold tracking-wide">মা দুর্গার ১০৮ রূপকোষ</span>
+            </div>
+            <div class="text-center font-medium">
+                পরিকল্পনা ও নির্মাণে: <span class="text-yellow-300 font-bold tracking-wide">সৌরভ চৌধুরী</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CHATBOT LAUNCHER & MODAL -->
+    <button id="floating-bot-launcher" onclick="openChatbot()" class="fixed bottom-6 right-6 z-40 w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-yellow-400/90 p-1 bg-black/80 shadow-2xl bot-circular-launcher hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center group">
+        <div class="w-full h-full rounded-full overflow-hidden relative shadow-inner">
+            <img src="chatbot_logo.png" alt="Durga Oracle Bot" class="w-full h-full object-cover rounded-full group-hover:rotate-12 transition-transform duration-500" onerror="handleImageError(this)">
+        </div>
+    </button>
+
+    <div id="chatbot-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-3 view-hidden">
+        <div class="w-full max-w-lg bg-[#18030d] border border-yellow-500/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden max-h-[92vh]">
+            <div class="bg-gradient-to-r from-yellow-950 via-amber-900 to-yellow-950 px-4 py-3 border-b border-yellow-500/40 flex justify-between items-center">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-9 h-9 rounded-full overflow-hidden border border-yellow-400/80 p-0.5 bg-black/70 flex-shrink-0">
+                        <img src="chatbot_logo.png" class="w-full h-full object-cover rounded-full" onerror="handleImageError(this)">
+                    </div>
+                    <div>
+                        <h3 id="ui-bot-header-title" class="text-sm md:text-base font-bold text-yellow-300">দেবী অনুসন্ধানকারী চ্যাটবট</h3>
+                        <p id="ui-bot-header-sub" class="text-[10px] text-gray-300">Akinator Oracle • ১০০% নির্ভুল অনুসন্ধান ইঞ্জিন</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="restartAkinator()" class="p-1.5 hover:bg-white/10 rounded-lg text-yellow-300 text-xs">🔄 রিসেট</button>
+                    <button onclick="closeChatbot()" class="p-1.5 hover:bg-white/10 rounded-lg text-gray-300 hover:text-white text-base font-bold">✕</button>
+                </div>
+            </div>
+
+            <div class="bg-black/50 px-4 py-1.5 border-b border-yellow-500/20 flex justify-between items-center text-[11px] text-yellow-200 font-medium">
+                <span id="bot-progress-text">প্রশ্ন: ১</span>
+                <span id="bot-accuracy-text">সম্ভাবনা: ১৫%</span>
+            </div>
+
+            <div id="chat-messages-container" class="flex-grow p-4 overflow-y-auto space-y-3.5 text-xs md:text-sm h-64">
+                <!-- Messages dynamic -->
+            </div>
+
+            <div id="chat-controls-area" class="p-3 bg-black/70 border-t border-yellow-500/30">
+                <div id="chat-options-grid" class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                    <button onclick="handleUserAnswer('yes')" class="py-2.5 px-3 bg-emerald-950/80 hover:bg-emerald-900 border border-emerald-500/50 text-emerald-300 rounded-xl font-bold transition-all">
+                        <span id="btn-ans-yes">হ্যাঁ</span>
+                    </button>
+                    <button onclick="handleUserAnswer('no')" class="py-2.5 px-3 bg-rose-950/80 hover:bg-rose-900 border border-rose-500/50 text-rose-300 rounded-xl font-bold transition-all">
+                        <span id="btn-ans-no">না</span>
+                    </button>
+                    <button onclick="handleUserAnswer('maybe')" class="py-2.5 px-3 bg-amber-950/80 hover:bg-amber-900 border border-amber-500/50 text-amber-300 rounded-xl font-bold transition-all">
+                        <span id="btn-ans-maybe">সম্ভবত</span>
+                    </button>
+                    <button onclick="handleUserAnswer('unknown')" class="py-2.5 px-3 bg-gray-900/90 hover:bg-gray-800 border border-gray-600/50 text-gray-300 rounded-xl font-bold transition-all">
+                        <span id="btn-ans-unknown">জানি না</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT SECTION -->
+    <script>
+        function getCdnUrl(filename) {
+            return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=500`;
+        }
+
+        const FALLBACK_POOL = [
+            getCdnUrl("Durga_by_Raja_Ravi_Varma.jpg"),
+            getCdnUrl("The_Goddess-Durga!!.JPG"),
+            getCdnUrl("Durga_Idol,_Kolkata-01.jpg"),
+            getCdnUrl("Goddess_Durga_Statue_(2024).jpg")
+        ];
+
+        function handleImageError(img) {
+            img.onerror = null;
+            const fallback = FALLBACK_POOL[Math.floor(Math.random() * FALLBACK_POOL.length)];
+            img.src = fallback;
+        }
+
+        const uiText = {
+            bn: {
+                mainTitle: "মা দুর্গার ১০৮ পরম রূপ",
+                subTitle: "শ্রীশ্রী দুর্গাষ্টোত্তর শতনামাবলী ও দেবীমাহাত্ম্যম্ অবলম্বনে ১০৮টি আদি ও প্রামাণ্য রূপের সংকলন।",
+                btnBack: "তালিকায় ফিরে যান",
+                searchPlaceholder: "রূপের নাম দিয়ে খুঁজুন...",
+                bannerBotBtn: "মা দুর্গা একিনেটর খেলা: মনে মনে রূপ ভাবুন, চ্যাটবট ১০০% নিশ্চিত করে বলবে!",
+                botInitialGreeting: "নমস্কার! মনে মনে মা দুর্গার ১০৮টি রূপের যেকোনো একটি রূপ চিন্তা করুন। আমি প্রশ্ন করতে থাকব এবং যতক্ষণ না ১০০% নিশ্চিত হচ্ছি, ততক্ষণ অনুসন্ধান চলতে থাকবে!",
+                botGuessTitle: "আমি ১০০% নিশ্চিত! আপনি এই পরম রূপটির কথাই ভাবছেন:",
+                botGuessViewProfile: "উইকিপিডিয়া প্রোফাইল দেখুন",
+                botGuessNotThis: "না, এটা নয়",
+                ansYes: "হ্যাঁ", ansNo: "না", ansMaybe: "সম্ভবত", ansUnknown: "জানি না"
+            },
+            en: {
+                mainTitle: "108 Divine Forms of Goddess Durga",
+                subTitle: "Comprehensive encyclopedia of all 108 authentic sacred manifestations.",
+                btnBack: "Back to Catalog",
+                searchPlaceholder: "Search divine form...",
+                bannerBotBtn: "Maa Durga Akinator: Think of a divine form, the bot will guess with 100% certainty!",
+                botInitialGreeting: "Salutations! Ponder upon any one of the 108 sacred manifestations. I will continue asking questions!",
+                botGuessTitle: "I am 100% certain! You are contemplating this Divine Form:",
+                botGuessViewProfile: "View Wikipedia Profile",
+                botGuessNotThis: "No, not this one",
+                ansYes: "Yes", ansNo: "No", ansMaybe: "Maybe", ansUnknown: "Don't know"
+            },
+            hi: {
+                mainTitle: "माँ दुर्गा के १०८ पावन स्वरूप",
+                subTitle: "माँ दुर्गा के प्रामाणिक १०८ स्वरूपों का विस्तृत संग्रह।",
+                btnBack: "सूची पर वापस जाएं",
+                searchPlaceholder: "स्वरूप का नाम खोजें...",
+                bannerBotBtn: "माँ दुर्गा एकिनेटर खेल: मन में एक स्वरूप सोचिए, चैटबॉट १००% निश्चय से बताएगा!",
+                botInitialGreeting: "सादर प्रणाम! मन में माँ दुर्गा के १०८ स्वरूपों में से किसी एक स्वरूप का ध्यान कीजिए।",
+                botGuessTitle: "मैं १००% आश्वस्त हूँ! आप इसी पावन स्वरूप का ध्यान कर रहे हैं:",
+                botGuessViewProfile: "विकिपीडिया प्रोफाइल देखें",
+                botGuessNotThis: "नहीं, यह नहीं है",
+                ansYes: "हाँ", ansNo: "नहीं", ansMaybe: "संभवतः", ansUnknown: "पता नहीं"
+            }
+        };
+
+        // Your FULL 108 Dataset here!
+        const canonical108Data = [
+            { id: 1, bn: "সতী", en: "Sati", hi: "सती", vahana: "নন্দী / বৃষভ", weapons: "পদ্ম, রুদ্রাক্ষ", cat: "cat1", file: "Shiva_PARVATI.jpg" },
+            { id: 2, bn: "সাধ্বী", en: "Sadhvi", hi: "साध्वी", vahana: "শ্বেত বৃষভ", weapons: "কমণ্ডলু, জপমালা", cat: "cat1", file: "Shailaputri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 3, bn: "ভবপ্রীতা", en: "Bhavaprita", hi: "भवप्रीता", vahana: "সিংহ", weapons: "অভয়মুদ্রা, বরদমুদ্রা", cat: "cat4", file: "Mahagauri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 4, bn: "ভবানী", en: "Bhavani", hi: "भवानी", vahana: "সিংহ", weapons: "ত্রিশূল, খড়্গ", cat: "cat1", file: "Durga_by_Raja_Ravi_Varma.jpg" },
+            { id: 5, bn: "ভবমোচনী", en: "Bhavamochani", hi: "भवमोचनी", vahana: "সিংহ", weapons: "পাশ, অঙ্কুশ", cat: "cat4", file: "Siddhidatri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 6, bn: "আর্যা", en: "Arya", hi: "आर्या", vahana: "শ্বেত সিংহ", weapons: "বেদপুস্তক, পদ্ম", cat: "cat3", file: "Skandamata_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 7, bn: "দুর্গা", en: "Durga", hi: "दुर्गा", vahana: "সিংহ", weapons: "দশপ্রহরণ (ত্রিশূল, চক্র, গদা)", cat: "cat2", file: "The_Goddess-Durga!!.JPG" },
+            { id: 8, bn: "জয়া", en: "Jaya", hi: "जया", vahana: "ব্যাঘ্র", weapons: "পতাকা, শূল", cat: "cat2", file: "Katyayani_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 9, bn: "আদ্যা", en: "Adya", hi: "आद्या", vahana: "দিব্য জ্যোতি", weapons: "জ্যোতির্বলয়", cat: "cat1", file: "Kushmanda_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 10, bn: "ত্রিনেত্রা", en: "Trinetra", hi: "त्रिनेत्रा", vahana: "সিংহ", weapons: "ত্রিশূল", cat: "cat1", file: "Chandraghanta_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 11, bn: "শূলধারিণী", en: "Shuladharini", hi: "शूलधारिणी", vahana: "সিংহ", weapons: "মহাভীষণ ত্রিশূল", cat: "cat2", file: "The_Goddess-Durga!!.JPG" },
+            { id: 12, bn: "পিনাকধারিণী", en: "Pinakadharini", hi: "पिनाकधारिणी", vahana: "বৃষভ", weapons: "পিনাক ধনুক ও শর", cat: "cat2", file: "Katyayani_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 13, bn: "চিত্রা", en: "Chitra", hi: "चित्रा", vahana: "ময়ূর", weapons: "বীণা, তুলিকা", cat: "cat3", file: "Kalighat_pictures_Indian_gods_f.12.jpg" },
+            { id: 14, bn: "চন্দ্রঘণ্টা", en: "Chandraghanta", hi: "चंद्रघंटा", vahana: "সিংহ", weapons: "ঘণ্টা, খড়্গ, গদা", cat: "cat2", file: "Chandraghanta_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 15, bn: "মহাতপা", en: "Mahatapa", hi: "महातपा", vahana: "হিমালয় পর্বতশিখর", weapons: "জপমালা, দণ্ড", cat: "cat1", file: "Brahmacharini_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 16, bn: "মনঃ", en: "Manah", hi: "मनः", vahana: "হংস", weapons: "সংকল্প সূত্র", cat: "cat3", file: "Goddess_Parvati_sculpture.jpg" },
+            { id: 17, bn: "বুদ্ধি", en: "Buddhi", hi: "बुद्धि", vahana: "শ্বেতপদ্ম", weapons: "পুস্তক, জ্ঞানমুদ্রা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 18, bn: "অহংকারা", en: "Ahamkara", hi: "अहंकारा", vahana: "সিংহ", weapons: "খড়্গ, পাশ", cat: "cat2", file: "Kalratri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 19, bn: "চিত্তরূপা", en: "Chittarupa", hi: "चित्तरूपा", vahana: "দিব্য রথ", weapons: "জ্ঞানদীপ", cat: "cat3", file: "Durga_Idol,_Kolkata-04.jpg" },
+            { id: 20, bn: "চিতা", en: "Chita", hi: "चिता", vahana: "শ্মশানভূমি", weapons: "ত্রিশূল, নরকপাল", cat: "cat2", file: "Kali_by_Raja_Ravi_Varma.jpg" },
+            { id: 21, bn: "চিতি", en: "Chiti", hi: "चिति", vahana: "হৃদয়পদ্ম", weapons: "চিদগ্নি", cat: "cat3", file: "Kali_Kangra_Painting.jpg" },
+            { id: 22, bn: "সর্বমন্ত্রময়ী", en: "Sarvamantramayi", hi: "सर्वमंत्रमयी", vahana: "অক্ষরমালা", weapons: "বীণা, বেদ", cat: "cat3", file: "Saraswati_by_Raja_Ravi_Varma.jpg" },
+            { id: 23, bn: "সত্তা", en: "Satta", hi: "सत्ता", vahana: "অনন্ত জগৎ", weapons: "অভয়মুদ্রা", cat: "cat1", file: "Goddess_Shakti.jpg" },
+            { id: 24, bn: "সত্যানন্দস্বরূপিণী", en: "Satyanandasvarupini", hi: "सत्यानंदस्वरूपिणी", vahana: "আনন্দলোক", weapons: "অমৃতকলশ", cat: "cat4", file: "Raja_Ravi_Varma,_Goddess_Lakshmi,_1896.jpg" },
+            { id: 25, bn: "অনন্তা", en: "Ananta", hi: "अनंता", vahana: "অনন্তনাগ", weapons: "চক্র, শঙ্খ", cat: "cat1", file: "Goddess_Durga_Statue_(2024).jpg" },
+            { id: 26, bn: "ভাবিনী", en: "Bhavini", hi: "भाविनी", vahana: "পদ্ম", weapons: "বরদমুদ্রা", cat: "cat4", file: "Goddess_Lakshmi_by_Raja_Ravi_Varma.jpg" },
+            { id: 27, bn: "ভব্যা", en: "Bhavya", hi: "भव्या", vahana: "সিংহ", weapons: "স্বর্ণদণ্ড", cat: "cat4", file: "Stone_statue_of_Durga.jpg" },
+            { id: 28, bn: "অভব্যা", en: "Abhavya", hi: "अभव्या", vahana: "শূন্যলোক", weapons: "চিদ্শক্তি", cat: "cat1", file: "Raja_Ravi_Varma,_Kamsa_maya_(1890).jpg" },
+            { id: 29, bn: "সদাগতি", en: "Sadagati", hi: "सदागति", vahana: "পবন", weapons: "চক্র", cat: "cat4", file: "Bhadrakali_Mata.jpg" },
+            { id: 30, bn: "শাম্ভবী", en: "Shambhavi", hi: "शाम्भवी", vahana: "বৃষভ", weapons: "ত্রিশূল, ডমরু", cat: "cat1", file: "Shiva_Parvati_with_Nandi.jpg" },
+            { id: 31, bn: "দেবমাতা", en: "Devamata", hi: "देवमाता", vahana: "ঐরাবত", weapons: "অমৃতপাত্র", cat: "cat4", file: "Parvati,_wife_of_Shiva,_Hindu_Goddess_image_from_South_India.jpg" },
+            { id: 32, bn: "চিন্তা", en: "Chinta", hi: "चिंता", vahana: "মানস সরোবর", weapons: "জ্ঞানমুদ্রা", cat: "cat3", file: "Gauri-khadyachya.jpg" },
+            { id: 33, bn: "রত্নপ্রিয়া", en: "Ratnapriya", hi: "रत्नप्रिया", vahana: "স্বর্ণপদ্ম", weapons: "রত্নমালা", cat: "cat4", file: "Raja_Ravi_Varma,_Goddess_Lakshmi,_1896.jpg" },
+            { id: 34, bn: "সর্ববিদ্যা", en: "Sarvavidya", hi: "सर्वविद्या", vahana: "শ্বেতহংস", weapons: "বীণা, অক্ষমালা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 35, bn: "দক্ষকন্যা", en: "Dakshakanya", hi: "दक्षकन्या", vahana: "বৃষভ", weapons: "পদ্মকলিকা", cat: "cat1", file: "Parvati,_a_Hinduism_goddess._From_south_India,_11th-12th_century_CE._National_Museum_of_Scotland,_Edinburgh.jpg" },
+            { id: 36, bn: "দক্ষযজ্ঞবিনাশিনী", en: "Dakshayajnavinashini", hi: "दक्षयज्ञविनाशिनी", vahana: "সিংহ", weapons: "মহাপ্রলয় খড়্গ", cat: "cat2", file: "Bhadrakali,_xiv_secolo,_prov._sconosciuta.jpg" },
+            { id: 37, bn: "অপর্ণা", en: "Aparna", hi: "अपर्णा", vahana: "হিমালয় শিলা", weapons: "রুদ্রাক্ষ", cat: "cat1", file: "Gauri_029.jpg" },
+            { id: 38, bn: "অনেকবর্ণা", en: "Anekavarna", hi: "अनेकवर्णा", vahana: "রামধনু মেঘ", weapons: "নানা অস্ত্র", cat: "cat3", file: "Kalighat_pictures_Indian_gods_f.12.jpg" },
+            { id: 39, bn: "পাটলা", en: "Patala", hi: "पाटला", vahana: "রক্তপদ্ম", weapons: "পাটলপুষ্প বাণ", cat: "cat4", file: "Goddess_Lakshmi_by_Raja_Ravi_Varma.jpg" },
+            { id: 40, bn: "পাটলবতী", en: "Patalavati", hi: "पाटलवती", vahana: "পুষ্পরথ", weapons: "ইক্ষুধনু", cat: "cat4", file: "Durga_Idol,_Kolkata-04.jpg" },
+            { id: 41, bn: "পট্টাম্বরপরিধানা", en: "Pattambaraparidhana", hi: "पट्टाम्बरपरिधाना", vahana: "সিংহ", weapons: "বরমুদ্রা", cat: "cat4", file: "Raja_Ravi_Varma,_Goddess_Lakshmi,_1896.jpg" },
+            { id: 42, bn: "কলমঞ্জীররঞ্জিনী", en: "Kalamanjiraranjini", hi: "कलमंजीररंजिनी", vahana: "স্বর্ণপদ্ম", weapons: "নূপুর, পদ্ম", cat: "cat4", file: "Goddess_Parvati_sculpture.jpg" },
+            { id: 43, bn: "অমেয়বিক্রমা", en: "Ameyavikrama", hi: "अमेयविक्रमा", vahana: "মহাসিংহ", weapons: "গদা, চক্র", cat: "cat2", file: "The_goddess_durga_on_her_lion_kills_the_demon_mahishasura,_1880,_kalighat_school.jpg" },
+            { id: 44, bn: "ক্রূরা", en: "Krura", hi: "क्रूरा", vahana: "কালো অশ্ব", weapons: "খড়্গ, পাশ", cat: "cat2", file: "Kalratri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 45, bn: "সুন্দরী", en: "Sundari", hi: "सुंदरी", vahana: "শ্রীচক্র", weapons: "পঞ্চবাণ, ধনুক", cat: "cat4", file: "Goddess_Parvati_sculpture.jpg" },
+            { id: 46, bn: "সুরসুন্দরী", en: "Surasundari", hi: "सुरसुंदरी", vahana: "স্বর্গীয় রথ", weapons: "পদ্ম, বরদ", cat: "cat4", file: "Parvati,_a_Hinduism_goddess._From_south_India,_11th-12th_century_CE._National_Museum_of_Scotland,_Edinburgh.jpg" },
+            { id: 47, bn: "বনদুর্গা", en: "Vanadurga", hi: "वनदुर्गा", vahana: "মহিষ / ব্যাঘ্র", weapons: "ধনুঃশর, শূল", cat: "cat2", file: "Goddess_Shakti.jpg" },
+            { id: 48, bn: "মাতঙ্গমুনিপূজিতা", en: "Matangamunipujita", hi: "मातंगमुनिपूजिता", vahana: "হস্তী", weapons: "বীণা, খড়্গ", cat: "cat3", file: "Goddess_Shakti.jpg" },
+            { id: 49, bn: "ব্রাহ্মী", en: "Brahmi", hi: "ब्राह्मी", vahana: "হংস", weapons: "কমণ্ডলু, অক্ষসূত্র", cat: "cat3", file: "Brahmani_sculpture.jpg" },
+            { id: 50, bn: "মাহেশ্বরী", en: "Maheshwari", hi: "माहेश्वरी", vahana: "বৃষভ", weapons: "ত্রিশূল, সর্প", cat: "cat2", file: "Maheshwari_sculpture.jpg" },
+            { id: 51, bn: "ঐন্দ্রী", en: "Aindri", hi: "ऐंद्री", vahana: "ঐরাবত", weapons: "বজ্র, অঙ্কুশ", cat: "cat2", file: "Indrani_sculpture.jpg" },
+            { id: 52, bn: "কৌমারী", en: "Kaumari", hi: "कौमारी", vahana: "ময়ূর", weapons: "শক্তিদণ্ড (ভেল)", cat: "cat2", file: "Kaumari_sculpture.jpg" },
+            { id: 53, bn: "বৈষ্ণবী", en: "Vaishnavi", hi: "वैष्णवी", vahana: "গরুড়", weapons: "শঙ্খ, চক্র, গদা", cat: "cat3", file: "Vaishnavi_sculpture.jpg" },
+            { id: 54, bn: "চামুণ্ডা", en: "Chamunda", hi: "चामुंडा", vahana: "শব / শৃগাল", weapons: "খড়্গ, ত্রিশূল, পাশ", cat: "cat2", file: "Chamunda,_anoniem,_ca_1200,_MAS.jpg" },
+            { id: 55, bn: "বারাহী", en: "Varahi", hi: "वाराही", vahana: "মহিষ", weapons: "হাল, মুষল", cat: "cat2", file: "Varahi_sculpture.jpg" },
+            { id: 56, bn: "লক্ষ্মী", en: "Lakshmi", hi: "लक्ष्मी", vahana: "শ্বেতপদ্ম", weapons: "স্বর্ণমুদ্রা, বরদমুদ্রা", cat: "cat4", file: "Raja_Ravi_Varma,_Goddess_Lakshmi,_1896.jpg" },
+            { id: 57, bn: "পুরুষাকৃতি", en: "Purushakriti", hi: "पुरुषाकृति", vahana: "অর্ধনারীশ্বর", weapons: "ত্রিশূল, শঙ্খ", cat: "cat1", file: "Ardhanarishvara_(10th-11th_Century_India)_Asian_Art_Museum.jpg" },
+            { id: 58, bn: "বিমলা", en: "Vimala", hi: "विमला", vahana: "হংস", weapons: "পদ্ম, অভয়", cat: "cat4", file: "Gauri-khadyachya.jpg" },
+            { id: 59, bn: "উৎকর্ষিণী", en: "Utkarshini", hi: "उत्कर्षिणी", vahana: "সিংহ", weapons: "পতাকা", cat: "cat4", file: "Durga_Idol,_Kolkata-04.jpg" },
+            { id: 60, bn: "জ্ঞানরূপা", en: "Jnanarupa", hi: "ज्ञानरूपा", vahana: "বোধিবৃক্ষ", weapons: "জ্ঞানমুদ্রা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 61, bn: "ক্রিয়া", en: "Kriya", hi: "क्रिया", vahana: "কালচক্র", weapons: "চক্র", cat: "cat1", file: "Goddess_Durga_Statue_(2024).jpg" },
+            { id: 62, bn: "নিত্যা", en: "Nitya", hi: "नित्या", vahana: "শ্রীযন্ত্র", weapons: "পাশ, অঙ্কুশ", cat: "cat1", file: "Maa_Durga_Images_-_An_image_of_Goddess_Durga_from_Kolkata.jpg" },
+            { id: 63, bn: "বুদ্ধিদা", en: "Buddhida", hi: "बुद्धिदा", vahana: "শ্বেতপদ্ম", weapons: "পুস্তক", cat: "cat3", file: "The_Goddess-Durga!!.JPG" },
+            { id: 64, bn: "বহুলা", en: "Bahula", hi: "बहुला", vahana: "কামধেনু", weapons: "অমৃতকলশ", cat: "cat4", file: "The_Goddess-Durga!!.JPG" },
+            { id: 65, bn: "বহুলপ্রেমা", en: "Bahulaprema", hi: "बहुलप्रेमा", vahana: "মাতৃক্রোড়", weapons: "স্নেহমুদ্রা", cat: "cat4", file: "Parvati,_wife_of_Shiva,_Hindu_Goddess_image_from_South_India.jpg" },
+            { id: 66, bn: "সর্ববাহনবাহনা", en: "Sarvavahanavahana", hi: "सर्ववाहनवाहना", vahana: "সিংহ, বৃষ, হংস, ময়ূর", weapons: "সর্বঅস্ত্র", cat: "cat2", file: "Kalighat_pictures_Indian_gods_f.12.jpg" },
+            { id: 67, bn: "নিশুম্ভশুম্ভহননী", en: "Nishumbhashumbhahanani", hi: "निशुम्भशुम्भहननी", vahana: "সিংহ", weapons: "খড়্গ, ত্রিশূল", cat: "cat2", file: "The_goddess_durga_on_her_lion_kills_the_demon_mahishasura,_1880,_kalighat_school.jpg" },
+            { id: 68, bn: "মহিষাসুরমর্দিনী", en: "Mahishasuramardini", hi: "महिषासुरमर्दिनी", vahana: "সিংহ", weapons: "দশভুজ অস্ত্রাবলি", cat: "cat2", file: "Durga_by_Raja_Ravi_Varma.jpg" },
+            { id: 69, bn: "মধুকৈটভহন্ত্রী", en: "Madhukaitabhahantri", hi: "मधुकैटभहंत्री", vahana: "শেষশয্যা", weapons: "সুদর্শন চক্র", cat: "cat2", file: "Raja_Ravi_Varma,_Kamsa_maya_(1890).jpg" },
+            { id: 70, bn: "চণ্ডমুণ্ডবিনাশিনী", en: "Chandamundavinashini", hi: "चण्डमुण्डविनाशिनी", vahana: "সিংহ", weapons: "অসি, পাশ", cat: "cat2", file: "Chamunda_Devi_four_feet_statue.jpg" },
+            { id: 71, bn: "সর্বাসুরবিনাশিনী", en: "Sarvasuravinashini", hi: "सर्वसुरविनाशिनी", vahana: "সিংহ", weapons: "বজ্র, শূল, গদা", cat: "cat2", file: "Durga_by_Raja_Ravi_Varma.jpg" },
+            { id: 72, bn: "সর্বদানবঘাতিনী", en: "Sarvadanavaghatini", hi: "सर्वदानवघातिनी", vahana: "সিংহ", weapons: "খড়্গ, শক্তি", cat: "cat2", file: "Durga_Puja_-_Kolkata_23.jpg" },
+            { id: 73, bn: "সর্বশাস্ত্রময়ী", en: "Sarvashastramayi", hi: "सर्वशास्त्रमयी", vahana: "বেদপীঠ", weapons: "বেদসংহিতা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 74, bn: "সত্যা", en: "Satya", hi: "सत्या", vahana: "ধর্মরথ", weapons: "সত্যদণ্ড", cat: "cat1", file: "Parvati,_a_Hinduism_goddess._From_south_India,_11th-12th_century_CE._National_Museum_of_Scotland,_Edinburgh.jpg" },
+            { id: 75, bn: "সর্বাস্ত্রধারিণী", en: "Sarvastradharini", hi: "सर्वास्त्रधारिणी", vahana: "সিংহ", weapons: "সর্বদিব্য অস্ত্র", cat: "cat2", file: "Durga_Idol,_Kolkata-01.jpg" },
+            { id: 76, bn: "অনেকশস্ত্রহস্তা", en: "Anekashastrahasta", hi: "अनेकशस्त्रहस्ता", vahana: "সিংহ", weapons: "অনন্ত অস্ত্রাবলি", cat: "cat2", file: "Durga_Puja_in_Kolkata.jpg" },
+            { id: 77, bn: "অনেকাস্ত্রধারিণী", en: "Anekastradharini", hi: "अनेकास्त्रधारिणी", vahana: "সিংহ", weapons: "ব্রহ্মাস্ত্র, পাশুপত", cat: "cat2", file: "Durga_Puja_-_Kolkata_23.jpg" },
+            { id: 78, bn: "কুমারী", en: "Kumari", hi: "कुमारी", vahana: "পদ্ম", weapons: "অভয়, বরদ", cat: "cat4", file: "KUMARI_PUJA.jpg" },
+            { id: 79, bn: "এককন্যা", en: "Ekakanya", hi: "एककन्या", vahana: "মহাসিংহ", weapons: "ধনুঃশর", cat: "cat1", file: "Shailaputri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 80, bn: "কৈশোরী", en: "Kaishori", hi: "कैशोरी", vahana: "হরিণ", weapons: "পদ্মকলিকা", cat: "cat4", file: "Gauri_029.jpg" },
+            { id: 81, bn: "যুবতী", en: "Yuvati", hi: "युवती", vahana: "সিংহ", weapons: "ত্রিশূল", cat: "cat2", file: "Katyayani_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 82, bn: "যতি", en: "Yati", hi: "यति", vahana: "তপোভূমি", weapons: "দণ্ড, কমণ্ডলু", cat: "cat1", file: "Brahmacharini_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 83, bn: "অপ্রৌঢ়া", en: "Apraudha", hi: "अप्रौढ़ा", vahana: "পদ্ম", weapons: "বরদমুদ্রা", cat: "cat4", file: "Siddhidatri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 84, bn: "প্রৌঢ়া", en: "Praudha", hi: "प्रौढ़ा", vahana: "সিংহ", weapons: "চক্র, ত্রিশূল", cat: "cat2", file: "Durga_by_Raja_Ravi_Varma.jpg" },
+            { id: 85, bn: "বৃদ্ধমাতা", en: "Vriddhamata", hi: "वृद्धमाता", vahana: "কালরথ", weapons: "আশীর্বাদ মুদ্রা", cat: "cat4", file: "Dhumavati_painting.jpg" },
+            { id: 86, bn: "বলপ্রদা", en: "Balaprada", hi: "बलप्रदा", vahana: "সিংহ", weapons: "গদা", cat: "cat2", file: "Chandraghanta_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 87, bn: "মহোদরী", en: "Mahodari", hi: "महोदरी", vahana: "ব্রহ্মাণ্ড", weapons: "অভয়মুদ্রা", cat: "cat1", file: "Goddess_Durga_Statue_(2024).jpg" },
+            { id: 88, bn: "মুক্তকেশী", en: "Muktakeshi", hi: "मुक्तकेशी", vahana: "শ্মশানশিলা", weapons: "খড়্গ, মুণ্ডমালা", cat: "cat2", file: "Kali_by_Raja_Ravi_Varma.jpg" },
+            { id: 89, bn: "ঘোররূপা", en: "Ghorarupa", hi: "घोररूपा", vahana: "শববাহন", weapons: "খট্বাঙ্গ, শূল", cat: "cat2", file: "Kalratri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 90, bn: "মহাবলা", en: "Mahabala", hi: "महाबला", vahana: "মহাসিংহ", weapons: "বজ্র, গদা", cat: "cat2", file: "The_Goddess-Durga!!.JPG" },
+            { id: 91, bn: "অগ্নিজ্বালা", en: "Agnijvala", hi: "अग्निज्वाला", vahana: "অগ্নিশিখা", weapons: "অগ্নিবাণ", cat: "cat2", file: "Goddess_Shakti.jpg" },
+            { id: 92, bn: "রৌদ্রমুখী", en: "Raudramukhi", hi: "रौद्रमुखी", vahana: "সিংহ", weapons: "রুদ্র ত্রিশূল", cat: "cat2", file: "CHAMUNDA_MATA_INSET.jpg" },
+            { id: 93, bn: "কালরাত্রি", en: "Kalaratri", hi: "कालरात्रि", vahana: "গর্দভ", weapons: "লৌহকণ্টক, খড়্গ", cat: "cat2", file: "Kalratri_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 94, bn: "তপস্বিনী", en: "Tapasvini", hi: "तपस्विनी", vahana: "হিমালয়", weapons: "কমণ্ডলু", cat: "cat1", file: "Brahmacharini_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 95, bn: "নারায়ণী", en: "Narayani", hi: "नारायणी", vahana: "গরুড়", weapons: "শঙ্খ, চক্র, গদা, পদ্ম", cat: "cat3", file: "Vaishnavi_sculpture.jpg" },
+            { id: 96, bn: "ভদ্রকালী", en: "Bhadrakali", hi: "भद्रकाली", vahana: "সিংহ / রথ", weapons: "খড়্গ, খোলক", cat: "cat2", file: "Bhadrakali_Mata.jpg" },
+            { id: 97, bn: "বিষ্ণুমায়া", en: "Vishnumaya", hi: "विष्णुमाया", vahana: "যোগনিদ্রা", weapons: "মায়াজাল", cat: "cat1", file: "Raja_Ravi_Varma,_Kamsa_maya_(1890).jpg" },
+            { id: 98, bn: "জলোদরী", en: "Jalodari", hi: "जलोदरी", vahana: "মকর / সমুদ্র", weapons: "বরুণপাশ", cat: "cat4", file: "Bhuvaneshwari_painting.jpg" },
+            { id: 99, bn: "শিবদূতী", en: "Shivaduti", hi: "शिवदूती", vahana: "শৃগাল", weapons: "খড়্গ, শক্তি", cat: "cat2", file: "Shivaduti_sculpture.jpg" },
+            { id: 100, bn: "করালী", en: "Karali", hi: "कराली", vahana: "শববাহন", weapons: "মুণ্ড, খড়্গ", cat: "cat2", file: "Kali_by_Raja_Ravi_Varma.jpg" },
+            { id: 101, bn: "কামাক্ষী", en: "Kamakshi", hi: "कामाक्षी", vahana: "শ্রীচক্র", weapons: "ইক্ষুধনু, পুষ্পবাণ", cat: "cat4", file: "Rajarajeshwari.jpg" },
+            { id: 102, bn: "পরমেশ্বরী", en: "Parameshwari", hi: "परमेश्वरी", vahana: "সিংহ", weapons: "সর্বদিব্য আয়ুধ", cat: "cat1", file: "Durga_by_Raja_Ravi_Varma.jpg" },
+            { id: 103, bn: "কাত্যায়নী", en: "Katyayani", hi: "कात्यायनी", vahana: "সিংহ", weapons: "চন্দ্রহাস খড়্গ", cat: "cat2", file: "Katyayani_Sanghasri_2010_Arnab_Dutta.JPG" },
+            { id: 104, bn: "সাবিত্রী", en: "Savitri", hi: "सावित्री", vahana: "হংস", weapons: "গায়ত্রী সূত্র, পদ্ম", cat: "cat3", file: "Saraswati_by_Raja_Ravi_Varma.jpg" },
+            { id: 105, bn: "প্রত্যক্ষা", en: "Pratyaksha", hi: "प्रत्यक्षा", vahana: "দৃশ্যমান প্রকৃতি", weapons: "অভয়মুদ্রা", cat: "cat1", file: "Goddess_Shakti.jpg" },
+            { id: 106, bn: "ব্রহ্মবাদিনী", en: "Brahmavadini", hi: "ब्रह्मवादिनी", vahana: "বেদবেদিকা", weapons: "ব্রহ্মজ্ঞান মুদ্রা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 107, bn: "সরস্বতী", en: "Saraswati", hi: "सरस्वती", vahana: "শ্বেতহংস", weapons: "বীণা, পুস্তক, অক্ষমালা", cat: "cat3", file: "Raja_Ravi_Varma,_Goddess_Saraswati.jpg" },
+            { id: 108, bn: "সর্বসিদ্ধিপ্রদা", en: "Sarvasiddhiprada", hi: "सर्वसिद्धिप्रदा", vahana: "সিংহ / পদ্ম", weapons: "শঙ্খ, চক্র, গদা, পদ্ম", cat: "cat4", file: "Siddhidatri_Sanghasri_2010_Arnab_Dutta.JPG" }
+        ];
+
+        let currentLang = 'bn';
+        let akinatorCandidates = [];
+        let rejectedCandidateIds = new Set();
+        let askedQuestionKeys = new Set();
+        let currentQuestion = null;
+        let questionNumber = 0;
+        let isGuessingPhase = false;
+
+        // MISSING FUNCTIONS (এই ফাংশনগুলো না থাকার কারণেই কোডটি রান হচ্ছিল না)
+        
+        const akinatorQuestions = []; // Dynamic AI will handle the questions automatically
+        function checkDeityTrait(deity, trait) {
+            return false;
+        }
+
+        // 1. Language Changer & UI Updater
+        function changeLanguage(lang) {
+            currentLang = lang;
+            document.body.className = `lang-${lang}`;
+            
+            const t = uiText[lang];
+            if(!t) return;
+            document.getElementById('ui-main-title').innerText = t.mainTitle;
+            document.getElementById('ui-sub-title').innerText = t.subTitle;
+            document.getElementById('search-input').placeholder = t.searchPlaceholder;
+            document.getElementById('ui-banner-bot-btn').innerText = t.bannerBotBtn;
+            document.getElementById('ui-btn-back').innerText = t.btnBack;
+            document.getElementById('btn-ans-yes').innerText = t.ansYes;
+            document.getElementById('btn-ans-no').innerText = t.ansNo;
+            document.getElementById('btn-ans-maybe').innerText = t.ansMaybe;
+            document.getElementById('btn-ans-unknown').innerText = t.ansUnknown;
+
+            renderGrid();
+        }
+
+        // 2. Render Cards Grid
+        function renderGrid(searchTerm = "") {
+            const container = document.getElementById('grid-container');
+            if(!container) return;
+            container.innerHTML = "";
+            
+            const filtered = canonical108Data.filter(d => {
+                const name = d[currentLang] || d.bn;
+                return name.toLowerCase().includes(searchTerm.toLowerCase());
+            });
+
+            filtered.forEach(d => {
+                const name = d[currentLang] || d.bn;
+                const imgUrl = getCdnUrl(d.file);
+                
+                const card = document.createElement('div');
+                card.className = "glass-card p-4 flex flex-col items-center justify-center text-center gap-2";
+                card.onclick = () => openWikiProfile(d.id);
+                
+                card.innerHTML = `
+                    <div class="w-20 h-20 rounded-full overflow-hidden border-2 border-yellow-500/50 shadow-lg">
+                        <img src="${imgUrl}" class="w-full h-full object-cover" onerror="handleImageError(this)">
+                    </div>
+                    <div>
+                        <div class="text-yellow-400 text-[10px] font-bold"># ${d.id}</div>
+                        <h3 class="text-gray-100 text-sm md:text-base font-bold">${name}</h3>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // 3. Search Filter
+        function filterForms() {
+            const term = document.getElementById('search-input').value;
+            renderGrid(term);
+        }
+
+        // 4. View Switchers (Home <-> Details)
+        function showHome() {
+            document.getElementById('home-view').classList.remove('view-hidden');
+            document.getElementById('home-view').classList.add('view-active');
+            document.getElementById('detail-view').classList.remove('view-active');
+            document.getElementById('detail-view').classList.add('view-hidden');
+        }
+
+        function openWikiProfile(id) {
+            const deity = canonical108Data.find(d => d.id === id);
+            if(!deity) return;
+
+            document.getElementById('home-view').classList.remove('view-active');
+            document.getElementById('home-view').classList.add('view-hidden');
+            document.getElementById('detail-view').classList.remove('view-hidden');
+            document.getElementById('detail-view').classList.add('view-active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            const name = deity[currentLang] || deity.bn;
+            document.getElementById('article-main-name').innerText = name;
+            document.getElementById('infobox-header-name').innerText = name;
+            document.getElementById('article-number-badge').innerText = `১০৮ / ${deity.id}`;
+            document.getElementById('infobox-img').src = getCdnUrl(deity.file);
+            document.getElementById('info-val-vahana').innerText = deity.vahana;
+            document.getElementById('info-val-weapons').innerText = deity.weapons;
+        }
+
+        // Chatbot Functions
+        function openChatbot() {
+            document.getElementById('chatbot-modal').classList.remove('view-hidden');
+            restartAkinator();
+        }
+
+        function closeChatbot() {
+            document.getElementById('chatbot-modal').classList.add('view-hidden');
+        }
+
+        function restartAkinator() {
+            akinatorCandidates = [...canonical108Data];
+            rejectedCandidateIds.clear();
+            askedQuestionKeys.clear();
+            questionNumber = 0;
+            isGuessingPhase = false;
+
+            const container = document.getElementById('chat-messages-container');
+            container.innerHTML = '';
+            document.getElementById('chat-controls-area').classList.remove('hidden');
+
+            const t = uiText[currentLang];
+            addBotMessage(t.botInitialGreeting);
+
+            setTimeout(() => { askNextQuestion(); }, 500);
+        }
+
+        function addBotMessage(htmlContent) {
+            const container = document.getElementById('chat-messages-container');
+            const msg = document.createElement('div');
+            msg.className = "flex items-start gap-2.5 max-w-[90%]";
+            msg.innerHTML = `
+                <div class="w-8 h-8 rounded-full overflow-hidden border border-yellow-400 p-0.5 bg-black/60 flex items-center justify-center flex-shrink-0">
+                    <img src="chatbot_logo.png" class="w-full h-full object-cover rounded-full" onerror="handleImageError(this)">
+                </div>
+                <div class="bg-yellow-950/40 border border-yellow-500/30 rounded-2xl rounded-tl-none p-3 text-yellow-100 shadow-md">
+                    ${htmlContent}
+                </div>
+            `;
+            container.appendChild(msg);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function addUserMessage(text) {
+            const container = document.getElementById('chat-messages-container');
+            const msg = document.createElement('div');
+            msg.className = "flex items-end justify-end gap-2 max-w-[90%] ml-auto";
+            msg.innerHTML = `
+                <div class="bg-yellow-600/30 border border-yellow-400/40 rounded-2xl rounded-br-none p-2.5 text-yellow-200 font-semibold shadow-md">
+                    ${text}
+                </div>
+            `;
+            container.appendChild(msg);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function getAdaptiveQuestion() {
+            if (akinatorCandidates.length > 1) {
+                const candA = akinatorCandidates[0];
+                const candB = akinatorCandidates[1];
+
+                if (candA.vahana !== candB.vahana) {
+                    const key = 'dyn_vahana_' + candA.vahana;
+                    if (!askedQuestionKeys.has(key)) {
+                        askedQuestionKeys.add(key);
+                        return {
+                            id: key, type: 'dynamic',
+                            predicate: (d) => d.vahana === candA.vahana,
+                            text: {
+                                bn: `দেবীর পবিত্র বাহন কি নির্দিষ্টভাবে "${candA.vahana}"?`,
+                                en: `Is the sacred mount "${candA.vahana}"?`,
+                                hi: `क्या देवी का वाहन "${candA.vahana}" है?`
+                            }
+                        };
+                    }
+                }
+                
+                const candName = candA[currentLang] || candA.bn;
+                const deityKey = 'dyn_deity_' + candA.id;
+                if (!askedQuestionKeys.has(deityKey)) {
+                    askedQuestionKeys.add(deityKey);
+                    return {
+                        id: deityKey, type: 'dynamic',
+                        predicate: (d) => d.id === candA.id,
+                        text: {
+                            bn: `আপনি কি দেবী "${candName}"-এর কথা চিন্তা করছেন?`,
+                            en: `Are you contemplating Goddess "${candName}"?`,
+                            hi: `क्या आप माँ "${candName}" का ध्यान कर रहे हैं?`
+                        }
+                    };
+                }
+            }
+            return null;
+        }
+
+        function askNextQuestion() {
+            isGuessingPhase = false;
+
+            if (akinatorCandidates.length === 1) {
+                concludeWith100PercentGuess(akinatorCandidates[0]);
+                return;
+            }
+
+            if (akinatorCandidates.length === 0) akinatorCandidates = [...canonical108Data];
+
+            const nextQ = getAdaptiveQuestion();
+            if (!nextQ) {
+                concludeWith100PercentGuess(akinatorCandidates[0]);
+                return;
+            }
+
+            currentQuestion = nextQ;
+            questionNumber++;
+
+            document.getElementById('bot-progress-text').textContent = `প্রশ্ন: ${questionNumber}`;
+            document.getElementById('bot-accuracy-text').textContent = `সম্ভাবনা: ${Math.round((1 - (akinatorCandidates.length / 108)) * 100)}%`;
+
+            addBotMessage(`<strong>প্রশ্ন #${questionNumber}:</strong> ${nextQ.text[currentLang] || nextQ.text.bn}`);
+        }
+
+        function handleUserAnswer(answerType) {
+            if (!currentQuestion || isGuessingPhase) return;
+            
+            const t = uiText[currentLang];
+            let ansLabel = { 'yes': t.ansYes, 'no': t.ansNo, 'maybe': t.ansMaybe, 'unknown': t.ansUnknown }[answerType];
+            addUserMessage(ansLabel);
+
+            if (answerType === 'yes') {
+                akinatorCandidates = akinatorCandidates.filter(d => currentQuestion.predicate(d));
+            } else if (answerType === 'no') {
+                akinatorCandidates = akinatorCandidates.filter(d => !currentQuestion.predicate(d));
+            }
+
+            setTimeout(() => { askNextQuestion(); }, 450);
+        }
+
+        function concludeWith100PercentGuess(deity) {
+            isGuessingPhase = true;
+            const t = uiText[currentLang];
+            const name = deity[currentLang] || deity.bn;
+
+            addBotMessage(`
+                <div class="space-y-3">
+                    <p class="font-bold text-yellow-300">${t.botGuessTitle}</p>
+                    <div class="bg-black/80 border-2 border-yellow-400 rounded-xl p-3 flex gap-3">
+                        <img src="${getCdnUrl(deity.file)}" class="w-16 h-16 rounded-lg object-cover">
+                        <div>
+                            <span class="text-[10px] text-yellow-400 font-bold uppercase">রূপ #${deity.id}</span>
+                            <h4 class="text-base font-bold text-white">${name}</h4>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <button onclick="confirmCorrectDeity(${deity.id})" class="flex-1 py-2 bg-green-600 text-white rounded-lg text-xs">✅ ${t.botGuessViewProfile}</button>
+                        <button onclick="rejectGuessAndContinue(${deity.id})" class="flex-1 py-2 bg-red-900 text-white rounded-lg text-xs">❌ ${t.botGuessNotThis}</button>
+                    </div>
+                </div>
+            `);
+        }
+
+        function rejectGuessAndContinue(rejectedId) {
+            addUserMessage(uiText[currentLang].botGuessNotThis);
+            rejectedCandidateIds.add(rejectedId);
+            akinatorCandidates = akinatorCandidates.filter(d => d.id !== rejectedId);
+            addBotMessage(`বুঝেছি! এই রূপটি বাদ দেওয়া হলো। চলুন প্রশ্ন চালিয়ে যাচ্ছি...`);
+            setTimeout(() => { askNextQuestion(); }, 550);
+        }
+
+        function confirmCorrectDeity(id) {
+            closeChatbot();
+            openWikiProfile(id);
+        }
+
+        // Initialize on load
+        window.onload = () => {
+            changeLanguage('bn'); // Starts script and loads cards
+        };
+    </script>
+</body>
+</html>
